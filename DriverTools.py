@@ -8,7 +8,6 @@ from pprint import pprint
 def JsonLoad(filename1):
     with open(filename1,encoding='utf-8') as fobj:
         data1= json.load(fobj)
-
         #print(type(json_load))
         #pprint(data)
     pprint(data1)
